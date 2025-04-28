@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 60px;
+    background-color: lightgreen;
+    color: white;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-content: center;
+    justify-content: space-evenly;
+    
+}
+nav ul a{
+    text-decoration: none;
+}
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.note{
+    display: flex;
+    background-color: lightgreen;
+}
+.about-me{
+    display: flex;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;  
+}
+.introduction{
+    margin-left: 80px;
+}
+.social-media{
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+.social-media img{
+    width: 50px;
+    height: 50px;
+}
+.services{
+    background-color: rgb(241, 241, 248);
+}
+
+.services h2{
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+.all-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.all-cards img{
+    width: 100px;
+    height: 100px;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(241, 241, 248);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+.featured{
+    display: flex;
+}
+.more{
+    display: flex;
+    background-color: burlywood;
+}
+.divers{
+    display: flex;
+}
+.Statistics{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.success{
+    background-color: rgb(241, 241, 248);
+}
+.success h2{
+    color: black;
+    text-align: center;
+}
+.work-images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 80px;
+    flex-wrap: wrap;
+}
+.work-images img{
+    width: 300px;
+    height: 300px;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: green;
+}
+.logos img{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    background-color: mediumblue;
+    color: white;
+}
+.footer-one{
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    display: flex;
+    background-color: blue;
+}
+.footer-one p{
+    display: flex;
+}
+.footer-two{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+}
